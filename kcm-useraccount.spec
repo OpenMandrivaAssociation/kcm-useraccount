@@ -12,7 +12,6 @@ URL: 		http://kde-apps.org/content/show.php?content=119405
 BuildRequires:  kdelibs4-devel
 BuildRequires:  kdebase4-devel
 BuildRequires:	opencv-devel
-Conflicts:	kdepasswd
 Provides:	kdepasswd
 %description
 This is a modified version of Password & User Account section in System Settings, add webcam support for user image. 
