@@ -3,7 +3,7 @@
 Summary: 	Webcam support for KDE users
 Name: 		kcm-useraccount
 Version: 	0.2.1
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 Source:		119405-kcm.tar.gz
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
@@ -13,6 +13,7 @@ BuildRequires:  kdelibs4-devel
 BuildRequires:  kdebase4-devel
 BuildRequires:	opencv-devel
 Conflicts:	kdepasswd
+Provides:	kdepasswd
 %description
 This is a modified version of Password & User Account section in System Settings, add webcam support for user image. 
 This modification is based on Opencv library basically because it is multiplatform.
