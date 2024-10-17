@@ -8,7 +8,7 @@ Source:		119405-kcm.tar.gz
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL: 		http://kde-apps.org/content/show.php?content=119405
+URL: 		https://kde-apps.org/content/show.php?content=119405
 BuildRequires:  kdelibs4-devel
 BuildRequires:  kdebase4-devel
 BuildRequires:	opencv-devel
